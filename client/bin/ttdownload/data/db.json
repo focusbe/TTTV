@@ -1,0 +1,464 @@
+{
+  "task": [
+    {
+      "path": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+      "filename": "",
+      "status": "waiting",
+      "percent": 0,
+      "poster": "",
+      "engin": "arai2",
+      "downid": "9f679ed403f6307d",
+      "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar",
+      "createtime": 1526640551257,
+      "id": "a6021aa6-5b13-4311-a016-6f6d606bfd26",
+      "downloadInfo": {
+        "completedLength": "0",
+        "connections": "1",
+        "dir": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+        "downloadSpeed": "0",
+        "files": [
+          {
+            "completedLength": "0",
+            "index": "1",
+            "length": "0",
+            "path": "",
+            "selected": "true",
+            "uris": [
+              {
+                "status": "used",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              }
+            ]
+          }
+        ],
+        "gid": "9f679ed403f6307d",
+        "numPieces": "0",
+        "pieceLength": "1048576",
+        "status": "active",
+        "totalLength": "0",
+        "uploadLength": "0",
+        "uploadSpeed": "0"
+      }
+    },
+    {
+      "path": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+      "filename": "",
+      "status": "waiting",
+      "percent": 0,
+      "poster": "",
+      "engin": "arai2",
+      "downid": "27b4e6b0c8121e13",
+      "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar",
+      "createtime": 1526640603163,
+      "id": "3f2ad1a3-9395-4cd1-9a99-d66ccc1578ae",
+      "downloadInfo": {
+        "completedLength": "0",
+        "connections": "1",
+        "dir": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+        "downloadSpeed": "0",
+        "files": [
+          {
+            "completedLength": "0",
+            "index": "1",
+            "length": "0",
+            "path": "",
+            "selected": "true",
+            "uris": [
+              {
+                "status": "used",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              }
+            ]
+          }
+        ],
+        "gid": "27b4e6b0c8121e13",
+        "numPieces": "0",
+        "pieceLength": "1048576",
+        "status": "active",
+        "totalLength": "0",
+        "uploadLength": "0",
+        "uploadSpeed": "0"
+      }
+    },
+    {
+      "path": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+      "filename": "",
+      "status": "waiting",
+      "percent": 0,
+      "poster": "",
+      "engin": "arai2",
+      "downid": "c88ffe1eef89ded3",
+      "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar",
+      "createtime": 1526640655135,
+      "id": "37e141ff-0c89-4f42-989b-064703265792",
+      "downloadInfo": {
+        "completedLength": "0",
+        "connections": "1",
+        "dir": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+        "downloadSpeed": "0",
+        "files": [
+          {
+            "completedLength": "0",
+            "index": "1",
+            "length": "0",
+            "path": "",
+            "selected": "true",
+            "uris": [
+              {
+                "status": "used",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              }
+            ]
+          }
+        ],
+        "gid": "c88ffe1eef89ded3",
+        "numPieces": "0",
+        "pieceLength": "1048576",
+        "status": "active",
+        "totalLength": "0",
+        "uploadLength": "0",
+        "uploadSpeed": "0"
+      }
+    },
+    {
+      "path": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+      "filename": "",
+      "status": "active",
+      "percent": 0,
+      "poster": "",
+      "engin": "arai2",
+      "downid": "234f41f8bbcdf016",
+      "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar",
+      "createtime": 1526640685199,
+      "id": "f0385c77-354b-4ff1-b9ba-6eccbb9b1f55",
+      "downloadInfo": {
+        "completedLength": "0",
+        "connections": "1",
+        "dir": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+        "downloadSpeed": "0",
+        "files": [
+          {
+            "completedLength": "0",
+            "index": "1",
+            "length": "0",
+            "path": "",
+            "selected": "true",
+            "uris": [
+              {
+                "status": "used",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              }
+            ]
+          }
+        ],
+        "gid": "234f41f8bbcdf016",
+        "numPieces": "0",
+        "pieceLength": "1048576",
+        "status": "active",
+        "totalLength": "0",
+        "uploadLength": "0",
+        "uploadSpeed": "0"
+      }
+    },
+    {
+      "path": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+      "filename": "",
+      "status": "active",
+      "percent": 0,
+      "poster": "",
+      "engin": "arai2",
+      "downid": "9ba85776cb87ba54",
+      "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar",
+      "createtime": 1526640701286,
+      "id": "bfd26f56-9b8d-4464-a805-677ca43e8532",
+      "downloadInfo": {
+        "completedLength": "0",
+        "connections": "1",
+        "dir": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+        "downloadSpeed": "0",
+        "files": [
+          {
+            "completedLength": "0",
+            "index": "1",
+            "length": "0",
+            "path": "",
+            "selected": "true",
+            "uris": [
+              {
+                "status": "used",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              }
+            ]
+          }
+        ],
+        "gid": "9ba85776cb87ba54",
+        "numPieces": "0",
+        "pieceLength": "1048576",
+        "status": "active",
+        "totalLength": "0",
+        "uploadLength": "0",
+        "uploadSpeed": "0"
+      }
+    },
+    {
+      "path": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+      "filename": "",
+      "status": "active",
+      "percent": 0,
+      "poster": "",
+      "engin": "arai2",
+      "downid": "bd1a18524cddbfd5",
+      "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar",
+      "createtime": 1526640731944,
+      "id": "9f8d7223-ca61-44ba-822e-ec741ada5556",
+      "downloadInfo": {
+        "completedLength": "0",
+        "connections": "1",
+        "dir": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+        "downloadSpeed": "0",
+        "files": [
+          {
+            "completedLength": "0",
+            "index": "1",
+            "length": "0",
+            "path": "",
+            "selected": "true",
+            "uris": [
+              {
+                "status": "used",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              }
+            ]
+          }
+        ],
+        "gid": "bd1a18524cddbfd5",
+        "numPieces": "0",
+        "pieceLength": "1048576",
+        "status": "active",
+        "totalLength": "0",
+        "uploadLength": "0",
+        "uploadSpeed": "0"
+      }
+    },
+    {
+      "path": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+      "filename": "",
+      "status": "active",
+      "percent": 0,
+      "poster": "",
+      "engin": "arai2",
+      "downid": "923919739824845e",
+      "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar",
+      "createtime": 1526870068156,
+      "id": "cbc78947-313a-421a-8d90-b9703adb60b0",
+      "downloadInfo": {
+        "completedLength": "0",
+        "connections": "1",
+        "dir": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+        "downloadSpeed": "0",
+        "files": [
+          {
+            "completedLength": "0",
+            "index": "1",
+            "length": "0",
+            "path": "",
+            "selected": "true",
+            "uris": [
+              {
+                "status": "used",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              }
+            ]
+          }
+        ],
+        "gid": "923919739824845e",
+        "numPieces": "0",
+        "pieceLength": "1048576",
+        "status": "active",
+        "totalLength": "0",
+        "uploadLength": "0",
+        "uploadSpeed": "0"
+      }
+    },
+    {
+      "path": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+      "filename": "",
+      "status": "waiting",
+      "percent": 0,
+      "poster": "",
+      "engin": "arai2",
+      "downid": "5902434df10bde28",
+      "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar",
+      "createtime": 1526870142601,
+      "id": "a1328800-b7e3-4e12-90e2-71a587314c2b",
+      "downloadInfo": {
+        "completedLength": "0",
+        "connections": "1",
+        "dir": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+        "downloadSpeed": "0",
+        "files": [
+          {
+            "completedLength": "0",
+            "index": "1",
+            "length": "0",
+            "path": "",
+            "selected": "true",
+            "uris": [
+              {
+                "status": "used",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              },
+              {
+                "status": "waiting",
+                "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar"
+              }
+            ]
+          }
+        ],
+        "gid": "5902434df10bde28",
+        "numPieces": "0",
+        "pieceLength": "1048576",
+        "status": "active",
+        "totalLength": "0",
+        "uploadLength": "0",
+        "uploadSpeed": "0"
+      }
+    },
+    {
+      "path": "D:\\www\\repertory\\mytv-client\\bin\\ttdownload\\downloads\\",
+      "filename": "",
+      "status": "waiting",
+      "percent": 0,
+      "poster": "",
+      "engin": "arai2",
+      "downid": "9e463263ea2703c6",
+      "uri": "http://222.73.62.246/elsclient/fullclient/elswordcnclient80502.rar",
+      "createtime": 1526870164987,
+      "id": "4b75189f-a667-4418-a29b-9c949918fca1"
+    }
+  ]
+}

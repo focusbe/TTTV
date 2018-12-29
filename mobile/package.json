@@ -1,0 +1,32 @@
+{
+  "name": "mytv_mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "dev": "react-native run-android",
+    "eject": "react-native eject",
+    "link": "react-native link react-native-vector-icons",
+    "icon":"app-icon generate"
+  },
+  "dependencies": {
+    "app-icon": "^0.6.3",
+    "react": "^16.3.0-alpha.1",
+    "react-native": "0.54.2",
+    "react-native-elements": "^1.0.0-beta3",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-scrollable-tab-view": "^0.6.6",
+    "react-native-vector-icons": "^4.2.0",
+    "react-navigation": "^1.5.7",
+    "react-router-native": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.0-alpha.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "^16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

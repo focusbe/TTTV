@@ -1,0 +1,7 @@
+{
+  "downloadPath": "~/Download",
+  "win32": {
+    "downloadPath": "C:\\Download"
+  },
+  "test": ""
+}

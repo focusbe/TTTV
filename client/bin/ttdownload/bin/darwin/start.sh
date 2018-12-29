@@ -1,0 +1,1 @@
+./aria2c --conf-path=../../../config/aria2.conf  --input-file=./aria2.session --save-session=./aria2.session

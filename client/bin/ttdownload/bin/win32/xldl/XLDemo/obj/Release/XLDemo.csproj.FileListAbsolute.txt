@@ -1,0 +1,9 @@
+D:\www\repertory\mytv-client\bin\ttdownload\bin\win32\xldl\XLDemo\bin\Release\XLDemo.dll
+D:\www\repertory\mytv-client\bin\ttdownload\bin\win32\xldl\XLDemo\bin\Release\XLDemo.pdb
+D:\www\repertory\mytv-client\bin\ttdownload\bin\win32\xldl\XLDemo\obj\Release\XLDemo.csprojAssemblyReference.cache
+D:\www\repertory\mytv-client\bin\ttdownload\bin\win32\xldl\XLDemo\obj\Release\XLDemo.Form1.resources
+D:\www\repertory\mytv-client\bin\ttdownload\bin\win32\xldl\XLDemo\obj\Release\XLDemo.Properties.Resources.resources
+D:\www\repertory\mytv-client\bin\ttdownload\bin\win32\xldl\XLDemo\obj\Release\XLDemo.csproj.GenerateResource.cache
+D:\www\repertory\mytv-client\bin\ttdownload\bin\win32\xldl\XLDemo\obj\Release\XLDemo.csproj.CoreCompileInputs.cache
+D:\www\repertory\mytv-client\bin\ttdownload\bin\win32\xldl\XLDemo\obj\Release\XLDemo.dll
+D:\www\repertory\mytv-client\bin\ttdownload\bin\win32\xldl\XLDemo\obj\Release\XLDemo.pdb

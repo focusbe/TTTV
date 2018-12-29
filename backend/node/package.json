@@ -1,0 +1,30 @@
+{
+  "name": "videosdk",
+  "version": "1.0.0",
+  "description": "get album from youku and so on",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youku",
+    "iqiyi",
+    "videos",
+    "alubms"
+  ],
+  "author": "liupeng",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "hapi": "^17.2.1",
+    "log4js": "^2.5.2"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "knex": "^0.14.2",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.2",
+    "puppeteer": "^1.1.1",
+    "superagent": "^3.8.2"
+  }
+}

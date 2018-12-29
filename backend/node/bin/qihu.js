@@ -163,12 +163,12 @@ class Qihu {
         albums = await utli.asynceach(long_item, async function(index, item) {
             var album = {};
             var img = $(item)
-                .find(".b-mainpic_new img")
+                .find(".m-mainpic img")
                 .attr("src");
             var contentWrap = $(item).children(".cont");
             
             album["detailurl"] = $(item)
-                .find(".b-mainpic_new>a")
+                .find(".m-mainpic>a")
                 .attr("href");
             
 
@@ -243,8 +243,8 @@ class Qihu {
                 }
             });
             album["desc"] = contentWrap
-                .find(".b-description>dd>span")
-                .attr("data-full");
+                .find(".m-description>p")
+                .text().replace('简','');
             return album;
         });
         return albums;

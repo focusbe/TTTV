@@ -1,5 +1,6 @@
-const Beiwo = require('./bin/beiwo');
-var beiwo = new Beiwo();
-beiwo.search("妖猫传").then((res)=>{
+const Qihu = require('./bin/qihu');
+var qihu = new Qihu();
+qihu.search("吐槽大会").then((res)=>{
     console.log(res);
+    //console.log(res[0]['playlist']);
 });

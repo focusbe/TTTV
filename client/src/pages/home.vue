@@ -289,7 +289,7 @@ export default {
                 Socket.sendTo(
                     "backend",
                     "playvideo",
-                    "http://api.baiyug.cn/vip/index.php?url=" + url
+                    url
                 );
             } else {
                 alert("暂时无法播放");

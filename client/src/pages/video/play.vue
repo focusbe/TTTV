@@ -88,7 +88,7 @@
 <script>
 window.WINDOWTAG = 'playVideo';
 import $ from 'jquery';
-const apiurl = 'http://api.baiyug.cn/vip/?url=';
+const apiurl = 'http://000o.cc/jx/ty.php?url=';
 export default {
 	name: 'video_play',
 	data() {
@@ -169,7 +169,7 @@ export default {
                 //videoel.style.visibility = 'visible';
                 //videoel.openDevTools();
             });
-            
+            console.log(this.url);
             videoel.src=apiurl+this.url;
             
         },

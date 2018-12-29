@@ -63,8 +63,6 @@
 		"dist-mac": "export NODE_ENV=production&& webpack --progress --hide-modules",
 		"electron": "electron ./main.js",
 		"rebuild": "electron-rebuild -f -w sqlite3",
-		"packager": "electron-packager . FocusbeTv --platform=win32 --arch=x64  --out=./output --overwrite --app-version=0.0.1 --icon=./assets/app.icns  --asar=false --ignore=\"(src|docs|.gitignore|LICENSE|README.md|webpack.config.js|node_modules)\"",
-		"packagermac": "npm run dist-mac && electron-packager . FocusbeTv --platform=darwin --arch=x64 --out=./output --overwrite --app-version=0.0.1 --asar=false --icon=./assets/app.icns --ignore=\"(src|docs|.gitignore|LICENSE|README.md|webpack.config.js|node_modules)\"",
 		"packwin": "npm run dist && electron-builder --x64 --publish always",
 		"packmac": "npm run dist-mac && electron-builder --publish always"
 	},
@@ -108,7 +106,6 @@
 	"dependencies": {
 		"aria2": "^3.0.0",
 		"electron-updater": "^2.21.1",
-		"ffi": "^2.2.0",
 		"fluent-ffmpeg": "^2.1.2",
 		"jsonfile": "^4.0.0",
 		"lodash-id": "^0.14.0",

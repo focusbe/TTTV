@@ -2,3 +2,4 @@ data/*
 config/*
 output/*
 node_modules/
+yarn.lock

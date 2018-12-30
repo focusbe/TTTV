@@ -3,3 +3,4 @@ config/*
 output/*
 node_modules/
 yarn.lock
+log/

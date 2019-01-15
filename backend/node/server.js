@@ -5,12 +5,7 @@ const Beiwo = require('./bin/beiwo');
 const server = Hapi.server({
     port: 8081
 });
-// process.on('uncaughtException', function (err) {
-//     //打印出错误
-//     console.log(err);
-//     //打印出错误的调用栈方便调试
-//     console.log(err.stack) ；
-// });
+
 var logger = require('./lib/log');
 
 class Server {

@@ -212,7 +212,7 @@ export default {
             this.showdown = !this.showdown;
         },
         posterLoad: function(event) {
-            console.log((event.target.style.visibility = "visible"));
+           (event.target.style.visibility = "visible");
         },
         changeSource: function(e) {
             var val = $(e.target).val();
@@ -256,6 +256,7 @@ export default {
             this.getDownloadList(self.keyword);
         },
         getDownloadList(keyword) {
+          
             this.downloadList = [];
             var self = this;
             if (!!self.downloaAjax) {
@@ -274,6 +275,9 @@ export default {
                         self.downList = result.data;
                     }
                     console.log(self.downList);
+                },
+                error(err){
+                    console.log(err);
                 },
                 complete: function() {
                     self.downloaAjax = false;

@@ -19,7 +19,7 @@
     <div class="loading">
         <mu-circular-progress :size="40"/>
     </div>
-    <webview style="height:100%;" id="video" src="about:blank" nodeintegration autosize disablewebsecurity plugins width="100%" height="100%" ></webview>
+    <webview style="height:100%;" id="video" src="about:blank" autosize disablewebsecurity plugins width="100%" height="100%" ></webview>
     
 </div>
 </template>
@@ -88,7 +88,7 @@
 <script>
 window.WINDOWTAG = 'playVideo';
 import $ from 'jquery';
-const apiurl = 'http://000o.cc/jx/ty.php?url=';
+const apiurl = 'https://okjx.cc/?url=';
 export default {
 	name: 'video_play',
 	data() {
@@ -111,7 +111,7 @@ export default {
         //self.dlnalist = [{name:'小米盒子mini'},{name:'天猫盒子xxxxx'},{name:'海信电视'}];
         Socket.on('dlnalist',function(data){
             self.dlnalist = data;
-            console.log(data);
+            //console.log(data);
         });
         
         Socket.on('dlnastatus',function(data){
@@ -136,28 +136,13 @@ export default {
         },
         setVideo:function(){
             var videoel = document.getElementById('video');
-            //videoel.style.visibility = 'hidden';
-            var pathname = window.location.pathname;
-            var pathnamearr = pathname.split('/');
-            delete pathnamearr[pathnamearr.length-1];  
-            pathname = pathnamearr.join("/");  
-            var jsurl = window.location.protocol+'//'+ pathname+'embed/main.js';
+            videoel.style.visibility = 'visible';
             videoel.addEventListener('did-finish-load', (e) => {
                 $(".loading").hide();
                 videoel.style.visibility = 'visible';
                 if(DEBUG){
-                    videoel.openDevTools();
+                    // videoel.openDevTools();
                 }
-                
-                videoel.executeJavaScript(
-                    "var LOCALPATH='"+window.location.protocol+'//'+ pathname+"'; var body=document.getElementsByTagName('body')[0]; console.log(body);var scriptE = document.createElement('script');scriptE.src='" +
-                    jsurl +
-                    "';body.appendChild(scriptE);",
-                    false,
-                    function (err) {
-                        console.log(err);
-                    }
-                );
             });
             videoel.addEventListener('media-started-playing', (e) => {
                 //alert('媒体播放');
@@ -165,13 +150,9 @@ export default {
             videoel.addEventListener('did-fail-load', (e) => {
                 $(".loading").hide();
                 alert('加载失败请重试');
-                window.close();
-                //videoel.style.visibility = 'visible';
-                //videoel.openDevTools();
+                // window.close();
             });
-            console.log(this.url);
-            videoel.src=apiurl+this.url;
-            
+            videoel.loadURL(apiurl+this.url);
         },
         goToOri:function(){
             if(!this.url){
@@ -189,18 +170,10 @@ export default {
             
         },
         getPlayurAndDlna:function(deviceid){
-            //Socket.sendTo('backend','dlna',this.url);
-            var videoel = document.getElementById('video');
-            this.dlnaStatus = {'index':deviceid,status:0};
-            videoel.executeJavaScript('TTTV.DLNA('+deviceid+')',false,function(err){
-                console.log(err);
-            });
+            
         },
         showList:function(){
             
-            // this.getPlayUrl(function(playurls){
-            //     console.log(playurls);
-            // });
             if($(".airplaylist li").length>0){
                 
                 $(".airplaylist").stop().fadeIn();

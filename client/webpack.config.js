@@ -188,10 +188,10 @@ module.exports = {
         new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NamedModulesPlugin(),
-        new CopyWebpackPlugin([{
-            from: __dirname + '/src/embed',
-            to:'embed'
-        }]),
+        // new CopyWebpackPlugin([{
+        //     from: __dirname + '/src/embed',
+        //     to:'embed'
+        // }]),
         //html模板
         new HtmlWebpackPlugin({
             filename: 'main.html',

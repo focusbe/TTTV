@@ -26,7 +26,9 @@ let defaultWindow = {
         webSecurity: false,
         plugins: true,
         nativeWindowOpen: false,
-        scrollBounce: true
+        scrollBounce: true,
+        nodeIntegration:true,
+        webviewTag:true
     },
     show: false,
     titleBarStyle: "hidden",

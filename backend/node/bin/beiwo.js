@@ -5,9 +5,10 @@ class Beiwo{
         
     }
     async _getDetail(url,videoInfo){
-        var html = await utli._request({host:'www.beiwo.tv',path:url,protocol:"http:"},"GET");
+        var html = await utli._request({host:'www.beiwo888.com',path:url,protocol:"http:"},"GET");
         var $ = cheerio.load(html);
         var downlists = $(".downlist");
+        
         let downloadArr = [];
         videoInfo['desc'] = $(".endtext").html();
         downlists.each(function(index,item){
@@ -40,13 +41,14 @@ class Beiwo{
     async search(keyword){
         var self = this;
         try {
-            var html = await utli._request({host:"www.beiwo.tv",path:"/index.php",protocol:"http:"}, "GET", { wd: keyword ,s:"vod-search"});
+            var html = await utli._request({host:"www.beiwo888.com",path:"/index.php",protocol:"http:"}, "GET", { wd: keyword ,s:"vod-search"});
         } catch (error) {
             console.log(error);
+            return false;
         }
-        
         var $ = cheerio.load(html);
         var movielist= $(".movielist>ul>li");
+        console.log(movielist.length);
         var albums =  await utli.asynceach(movielist,async function(index,item){
             let album = {};
             album['detailurl'] = $(item).find(".play-img").attr('href');
@@ -58,6 +60,7 @@ class Beiwo{
             album["playlist"] = await self._getDetail(album['detailurl'],album);
             return album;
         });
+        
         return albums;
         
     }
